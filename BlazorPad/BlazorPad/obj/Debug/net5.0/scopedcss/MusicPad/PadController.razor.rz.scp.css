@@ -1,0 +1,22 @@
+﻿.main[b-5iymetxy3c] {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+
+.surface[b-5iymetxy3c] {
+    background-color: #0C0E0C;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border-radius: 20px;
+}
+
+h1[b-5iymetxy3c] {
+    color: white;
+}

@@ -1,0 +1,125 @@
+/* /MusicPad/Pad.razor.rz.scp.css */
+.pad[b-z9uihil7fx] {
+    background-color: #1B1B1B;
+    border-radius: 20px;
+    border: 2px solid #B2213C;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    color: white;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    padding-top: 50px;
+}
+
+.pad > h4[b-z9uihil7fx], .pad > h5[b-z9uihil7fx] {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px #fdffbd;
+}
+
+.pad:hover[b-z9uihil7fx] {
+    box-shadow: 0 0 15px #EE4352;
+    color: #EE4352;
+    background: radial-gradient(#ffffff, #ff726f);
+}
+
+.highlight[b-z9uihil7fx] {
+    box-shadow: 0 0 15px #EE4352;
+    color: #EE4352;
+    background: radial-gradient(#ffffff, #ff726f);
+}
+/* /MusicPad/PadController.razor.rz.scp.css */
+.main[b-5iymetxy3c] {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+
+.surface[b-5iymetxy3c] {
+    background-color: #0C0E0C;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border-radius: 20px;
+}
+
+h1[b-5iymetxy3c] {
+    color: white;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-5poeo94zvt] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-5poeo94zvt] {
+    flex: 1;
+}
+
+.sidebar[b-5poeo94zvt] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-5poeo94zvt] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-5poeo94zvt]  a, .top-row .btn-link[b-5poeo94zvt] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-5poeo94zvt] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-5poeo94zvt] {
+        display: none;
+    }
+
+    .top-row.auth[b-5poeo94zvt] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-5poeo94zvt], .top-row .btn-link[b-5poeo94zvt] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-5poeo94zvt] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-5poeo94zvt] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-5poeo94zvt] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-5poeo94zvt] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
